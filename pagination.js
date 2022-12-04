@@ -66,41 +66,9 @@ class Pagination {
   }
 }
 
-// for (let i = 0; i < pageCount; i++) {
-//   console.log("---");
-//   console.log("id: " + i);
-//   console.log(i * itemCount);
-//   console.log(i * itemCount + itemCount);
-//   console.log(items.slice(i * itemCount, i * itemCount + itemCount));
-//   console.log("---");
-// }
-
 // console.log(itemCount(0));
 // console.log(itemCount(1));
 
 let page = new Pagination(items, 10);
 
 console.log(page.pageItemCount(-2));
-
-// console.log(page.pageIndex(6));
-
-// console.log(page.itemCount());
-
-// console.log(page.pageCount());
-// console.log(page.itemCount(0));
-// console.log(page.itemCount(1));
-
-// console.log(page.itemCount(5));
-
-// console.log(page.pageIndex(1));
-// // console.log(page.pageIndex(20));
-
-// function thing() {
-//   return 2;
-// }
-
-// // console.log([1, 2, 3].findIndex(thing()));
-
-// console.log("---");
-// console.log(items.indexOf("b"));
-// console.log("---");
